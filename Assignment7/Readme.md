@@ -7,4 +7,4 @@
 * Also changed the model to pass only last hidden layer to fully connected layer but did not help the model
 * Tried changing the learrning rate few times but that also did not help the model
 * Tried GRU as well but that also did not help the model
-* Looks like something is completely ignored and hence the model is getting to overfitting with more training
+* Looks like something is completely ignored and hence the model is going towards overfitting as we train for more epochs
