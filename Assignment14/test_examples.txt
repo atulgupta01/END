@@ -1,0 +1,427 @@
+********Comment************
+47 write a program to   sort dictionary by key - value summation and print it
+********Actual Code************
+test_dict = { 3 : 5 , 1 : 3 , 4 : 6 , 2 : 7 , 8 : 1 }
+********Predicted Code************
+test_dict = { " gfg " : 1 , " is " : 3 , " best " : 5 , " : 3 , " geeks " : 7 , " is " : 10 } 
+print(string.replace("geeks " : " best " : 3 , " geeks "
+
+
+
+********Comment************
+printing result
+********Actual Code************
+print("the numerical values : " + str(res ) )
+********Predicted Code************
+print("the required result : " + str(res ) )
+
+
+
+********Comment************
+function absolute
+********Actual Code************
+def absolute_value(num ) : 
+    " " " this function returns the absolute 
+    value of the entered number " " " 
+    if num > = 0 : 
+        return num 
+    else : 
+        return -num 
+print(absolute_value(2 ) ) 
+print(absolute_value(-4 ) )
+********Predicted Code************
+def print_factors(x ) : 
+   print("the factors of",x,"are : " ) 
+   for i in range(1 , x + 1 ) : 
+       if x % i = 0 : 
+           print(i )
+
+
+
+********Comment************
+order . reverse in it print and console from string a accepts which program a write
+********Actual Code************
+s = raw_input ( ) 
+s = s[::-1 ] 
+print s
+********Predicted Code************
+s = input ( ) 
+d={"digits":0 , " letters":0 } 
+for c in s : 
+    if c.isdigit ( ) : 
+        d["digits"]+=1 
+    elif c.isalpha ( ) : 
+        d["letters"]+=1 
+    else : 
+        pass 
+print ( " letters " , d["letters " ] ) 
+
+
+
+
+********Comment************
+lists two of intersection the find to function lambda a write
+********Actual Code************
+intersection = lambda a , b : list(set(a)&set(b ) )
+********Predicted Code************
+def main(alist , blist ) : 
+    def intersection(a , b ) : 
+        return list(set(a ) & set(b ) ) 
+    return intersection(alist , blist )
+
+
+
+********Comment************
+write a python function to sort list using heapq
+********Actual Code************
+def heapsort(iterable ) : 
+    from heapq import heappush , heappop 
+    h = [ ] 
+    for value in iterable : 
+        heappush(h , value ) 
+    return [ heappop(h ) for i in range(len(h ) ) ]
+********Predicted Code************
+def heapsort(iterable ) : 
+    from heapq import heappush , heappop 
+    h = [ ] 
+    for value in iterable : 
+        heappush(h , value ) 
+    return [ heappop(h ) for i in range(len(h ) ]
+
+
+
+********Comment************
+92 write a python function to read a square matrix from console and print the sum of matrix primary diagonal . accept the size of the square matrix and elements for each column separated with a space ( for every row ) as input from the user and print the output .
+********Actual Code************
+size = int(input("input the size of the matrix : ") ) 
+matrix = [ [ 0 ] * size for row in range(0 , size ) ] 
+for x in range(0 , size ) : 
+    line = list(map(int , input().split ( ) ) ) 
+    for y in range(0 , size ) : 
+        matrix[x][y ] = line[y ] 
+matrix_sum_diagonal = sum(matrix[size - i - 1][size - i - 1 ] for i in range(size ) )
+********Predicted Code************
+size = int(input("input the size of the matrix : ") ) 
+matrix = [ 0 ] * size for row in range(0 , size ) : 
+    line = list(map(int , size ) ) 
+    for x in range(0 , size ) : 
+        matrix[x][y ] = line[y ]
+
+
+
+********Comment************
+cards of deck shuffle to   program python a write
+********Actual Code************
+import itertools , random 
+deck = list(itertools.product(range(1,14),['spade','heart','diamond','club ' ] ) ) 
+random.shuffle(deck ) 
+print(deck )
+********Predicted Code************
+import itertools , random 
+deck = list(itertools.product(range(1,14),['spade','heart','diamond','club ' ] ) ) 
+random.shuffle(deck ) 
+print(deck )
+
+
+
+********Comment************
+write a python function to convert decimal to hexadecimal
+********Actual Code************
+def dectohexa(n ) : 
+    hexadecinum = [ ' 0 ' ] * 100 ; 
+    i = 0 ; 
+    while(n ! = 0 ) :  
+        temp = 0 ;  
+        temp = n % 16 ; 
+        if(temp < 10 ) : 
+            hexadecinum[i ] = chr(temp + 48 ) ; 
+            i = i + 1 ; 
+        else : 
+            hexadecinum[i ] = chr(temp + 55 ) ; 
+            i = i + 1 ; 
+        n = int(n / 16 ) ; 
+    j = i - 1 ; 
+    while(j > = 0 ) : 
+        print((hexadecinum[j ] ) , end = " ") ; 
+        j = j - 1 ;
+********Predicted Code************
+def hexadecimaltodecimal(hexval ) : 
+    length = len(hexval ) 
+    base = 1 
+    base = 1 
+    while base : 
+        if base < = 1 : 
+            dec_val + = ( ord(hexval[i ] ) * base = base * base 
+            base = base * 16 
+        elif
+
+
+
+********Comment************
+access first characters in a string
+********Actual Code************
+word = " hello world " 
+letter = word[0 ] 
+print(f"first charecter in string:{letter } " )
+********Predicted Code************
+word = " hello world " 
+letter = word[0 ] 
+print(f"first charecter in string:{letter } " )
+
+
+
+********Comment************
+given an array of integers , return indices of the two numbers such that they add up to a specific target .
+********Actual Code************
+input_array = [ 2 , 7 , 11 , 15 ] 
+target = 26 
+result = [ ] 
+for i , num in enumerate(input_array ) : 
+    for j in range(i+1 , len(input_array ) ) : 
+        print(i , j )
+********Predicted Code************
+input_array = [ 2 , 7 , 11 , 15 ] 
+target = 26 
+result = [ ] 
+for i , num in enumerate(input_array ) : 
+    for j in range(i+1 , len(input_array ) ) : 
+        print(i , j )
+
+
+
+********Comment************
+string given a from words duplicate remove to function python a write 19
+********Actual Code************
+def remove_duplicate_words(string ) : 
+    string = string.strip().split ( ) 
+    return ' ' .join(set(string ) )
+********Predicted Code************
+def remove_duplicate_words(string ) : 
+    string = string.strip().split ( ) 
+    return ' .join(set(string ) )
+
+
+
+********Comment************
+recursion using list nested a of sum total the find to function python a write
+********Actual Code************
+def sum1(lst ) : 
+    total = 0 
+    for element in lst : 
+        if ( type(element ) = = type ( [ ] ) ) : 
+            total = total + sum1(element ) 
+        else : 
+            total = total + element 
+    return total
+********Predicted Code************
+def sum1(lst ) : 
+    total = 0 
+    for element in lst : 
+        if ( type(element ) = type ( [ ] ) ) : 
+            total = total + sum1(element ) 
+        else : 
+            total + element 
+    return total
+
+
+
+********Comment************
+write a function to determine the bits used by any number
+********Actual Code************
+def totalbits(n ) : 
+	return f'total number of bits used in { n } is : { len(bin(n)[2 : ] ) } '
+********Predicted Code************
+def totalbits(n ) : 
+	return f'total number of bits used in { n } is : { len(bin(n)[2 : ] ) } '
+
+
+
+********Comment************
+45 define a python function which can generate a list where the values are square of numbers between 1 and 20 ( both included ) . then the function needs to print the last 5 elements in the list .
+********Actual Code************
+import requests 
+def get_status(url ) : 
+    data = requests.get(url ) 
+    return data.status_code
+********Predicted Code************
+def printlist ( ) : 
+	li = list ( ) 
+	for i in range(1,21 ) : 
+		li.append(i**2 ) 
+	print li[-5 : ]
+
+
+
+********Comment************
+3 
+ write a function to calculate the area of polygon given the number of edges , circumradius
+********Actual Code************
+import math 
+def area_of_polygon(number_of_edges , circumradius ) : 
+        return number_of_edges * 2 * circumradius * math.sin(180 / number_of_edges ) * circumradius * math.cos(180 / number_of_edges ) * 0.5
+********Predicted Code************
+import math 
+def area_of_polygon(number_of_edges , circumradius ) : 
+        return number_of_edges * circumradius * math.cos(180 / number_of_edges ) * 0.5
+
+
+
+********Comment************
+write a python function to check if user provided year is a leap year or not
+********Actual Code************
+def is_leap(year ) : 
+  if ( year % 4 ) = = 0 : 
+    if ( year % 100 ) = = 0 : 
+        if ( year % 400 ) = = 0 : 
+            print(f"{year } is a leap year " ) 
+        else : 
+            print(f"{year } is not a leap year " ) 
+    else : 
+        print(f"{year } is a leap year " ) 
+  else : 
+    print(f"{year } is not a leap year " )
+********Predicted Code************
+def check_leap_year(year : int ) : 
+    if not year%4 : 
+        print('leap year ' ) 
+    else : 
+        print('not a leap year ' )
+
+
+
+********Comment************
+write a function to return the volume of a cylinder
+********Actual Code************
+def cal_cylinder_volume(height , radius ) : 
+    pi=3.14 
+    return pi*(radius**2)*height
+********Predicted Code************
+def cal_cylinder_volume(height , radius ) : 
+    pi=3.14 
+    return pi*(radius**2)*height
+
+
+
+********Comment************
+write a program to generate all sentences where subject is in [ " i " , " you " ] and verb is in [ " play " , " love " ] and the object is in [ " hockey","football " ] .
+********Actual Code************
+subjects=["i " , " you " ] 
+verbs=["play " , " love " ] 
+objects=["hockey","football " ] 
+for i in range(len(subjects ) ) : 
+    for j in range(len(verbs ) ) : 
+        for k in range(len(objects ) ) : 
+            sentence = " % s % s % s. " % ( subjects[i ] , verbs[j ] , objects[k ] ) 
+            print sentence
+********Predicted Code************
+subjects = [ " i " , " love " , " and " , " hockey " , " , " , " love " , " hockey " , " football " ] 
+for i in range(len(verbs ) ) : 
+    for k in range(len(objects ) )
+
+
+
+********Comment************
+usage of bool class
+********Actual Code************
+print('isinstance(true , int ) : ' , isinstance(true , int ) )
+********Predicted Code************
+print('isinstance(true , int ) : ' , isinstance(true , int ) )
+
+
+
+********Comment************
+48 . python program to illustrate different set operations 
+ define three sets
+********Actual Code************
+e = { 0 , 2 , 4 , 6 , 8 } ; 
+n = { 1 , 2 , 3 , 4 , 5 } ;
+********Predicted Code************
+e = { 0 , 2 , 4 , 6 , 8 } ; 
+n = { 1 , 2 , 3 , 4 , 5 } ; 
+print("union of e and n is",e | n )
+
+
+
+********Comment************
+write a function to find the area of rectangle
+********Actual Code************
+def rectangle_area(l , b ) : 
+    return l*b
+********Predicted Code************
+def cal_area_rect(length , breadth ) : 
+    return length*breadth
+
+
+
+********Comment************
+not or vowel is letter passed whether test to program python
+********Actual Code************
+def is_vowel(char ) : 
+    all_vowels = ' aeiou ' 
+    return char in all_vowels 
+print(is_vowel('c ' ) ) 
+print(is_vowel('e ' ) )
+********Predicted Code************
+def is_vowel(char ) : 
+    all_vowels = ' aeiou ' 
+    return char in all_vowels 
+print(is_vowel('c ' ) ) 
+print(is_vowel('e ' ) )
+
+
+
+********Comment************
+anagram are numbers two of representations binary if print and check to function python a write
+********Actual Code************
+from collections import counter 
+def checkanagram(num1,num2 ) : 
+    bin1 = bin(num1)[2 : ] 
+    bin2 = bin(num2)[2 : ] 
+    zeros = abs(len(bin1)-len(bin2 ) ) 
+    if ( len(bin1)>len(bin2 ) ) : 
+         bin2 = zeros * ' 0 ' + bin2 
+    else : 
+         bin1 = zeros * ' 0 ' + bin1 
+    dict1 = counter(bin1 ) 
+    dict2 = counter(bin2 ) 
+    if dict1 = = dict2 : 
+         print('yes ' ) 
+    else : 
+         print('no ' )
+********Predicted Code************
+def towerofhanoi(n , source , destination , auxiliary ) : 
+    if n==1 : 
+        print("move disk 1 from source",source,"to destination",destination ) 
+        return 
+    towerofhanoi(n-1 , source , auxiliary , destination ) 
+    print("move disk",n,"from source",source,"to destination",destination ) 
+    towerofhanoi(n-1 , auxiliary , destination , source )
+
+
+
+********Comment************
+number greater the choose     value 
+ the returb and lcm find to function python a write 34 .
+********Actual Code************
+def compute_lcm(x , y ) : 
+   if x > y : 
+       greater = x 
+   else : 
+       greater = y 
+   while(true ) : 
+       if((greater % x = = 0 ) and ( greater % y = = 0 ) ) : 
+           lcm = greater 
+           break 
+       greater + = 1 
+   return lcm
+********Predicted Code************
+def compute_lcm(x , y ) : 
+   if x > y : 
+       greater = x 
+   else : 
+       greater = y 
+   while(true ) : 
+       if((greater % x = = 0 ) and ( greater % y = = 0 ) ) : 
+           lcm = greater
+
+

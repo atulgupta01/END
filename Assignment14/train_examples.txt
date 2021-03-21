@@ -1,0 +1,332 @@
+********Comment************
+write a python function to that performs as relu
+********Actual Code************
+def relu(num ) : 
+    if num > 0 : 
+        return num 
+    return 0
+********Predicted Code************
+def relu(num ) : 
+    if num > 0 : 
+        return num
+
+
+
+********Comment************
+equality value or key for checking      it 
+ print and value or key equals position dictionary if count to program python a write 45
+********Actual Code************
+test_dict = { 5 : 3 , 1 : 3 , 10 : 4 , 7 : 3 , 8 : 1 , 9 : 5 } 
+res = 0 
+test_dict = list(test_dict.items ( ) ) 
+for idx in range(0 , len(test_dict ) ) : 
+    if idx = = test_dict[idx][0 ] or idx = = test_dict[idx][1 ] : 
+        res + = 1
+********Predicted Code************
+test_dict = { 5 : 3 , 1 : 3 , 7 : 3 , 1 : 3 : 5 : 3 , 7 : 1 , 3 : 5 } 
+res = 0 
+test_dict = { 1 : 3 : 1 
+for idx in range(0 ,
+
+
+
+********Comment************
+write a python program to print negative numbers in a list
+********Actual Code************
+list1 = [ 11 , -21 , 0 , 45 , 66 , -93 ] 
+for num in list1 : 
+    if num < 0 : 
+       print(num , end = " ")
+********Predicted Code************
+list1 = [ 11 , -21 , 0 , 45 , 66 , -93 ] 
+for num in list1 : 
+    if num < 0 : 
+       print(num , end = " ")
+
+
+
+********Comment************
+f(0)=1 and n>0 when f(n)=f(n-1)+100 compute : to program a write
+********Actual Code************
+def f(n ) : 
+    if n==0 : 
+        return 0 
+    else : 
+        return f(n-1)+100 
+n = int(raw_input ( ) ) 
+print f(n )
+********Predicted Code************
+def f(n ) : 
+    if n==0 : 
+        return 0 
+    else : 
+        return f(n-1)+100 
+n = int(raw_input ( ) ) 
+print f(n )
+
+
+
+********Comment************
+! /usr / bin / env python 
+ coding : utf-8 
+ in[28 ] : 
+ write python function get the unique number of elements from the user given list
+********Actual Code************
+mylist = [ ' nowplaying ' , ' pbs ' , ' pbs ' , ' nowplaying ' , ' job ' , ' debate ' , ' thenandnow ' ] 
+def get_unique_elements(list ) : 
+    unique = [ x for i , x in enumerate(mylist ) if i = = mylist.index(x ) ] 
+    return unique 
+get_unique_elements(mylist )
+********Predicted Code************
+def second_smallest(numbers ) : 
+  if ( len(numbers)<2 ) : 
+    return 
+  if ( ( p = = 0 ) ) : 
+    return 
+  else : 
+    return 
+  else : 
+    return 
+  mylist = [ x for i in enumerate(mylist ) )
+
+
+
+********Comment************
+write a python program to join tuples from a list of tupels if they have similar initial element . print out the output
+********Actual Code************
+test_list = [ ( 5 , 6 ) , ( 5 , 7 ) , ( 6 , 8) , ( 6 , 10 ) , ( 7 , 13 ) ] 
+print("the original list is : " + str(test_list ) ) 
+res = [ ] 
+for sub in test_list :                                            
+    if res and res[-1][0 ] = = sub[0 ] :               
+        res[-1].extend(sub[1 : ] )                         
+    else : 
+        res.append([ele for ele in sub ] )      
+res = list(map(tuple , res ) ) 
+print("the extracted elements : " + str(res ) )
+********Predicted Code************
+test_list = [ ( 5 , 6 ) , ( 5 , 7 ) , ( 6 , 8) , ( 6 , 10 ) , ( 7 , 13 ) ] 
+print("the original list is : " + str(test_list ) ) 
+res = [ ] 
+for
+
+
+
+********Comment************
+pairs value key list of list to dictonary given convert to program a write in[45 ] :
+********Actual Code************
+d = { ' food':'fish&chips','2012':'olympics','capital':'london ' } 
+list_key_value = [ [ k , v ] for k , v in d.items ( ) ] 
+print(f'lsit_key_value:{list_key_value } ' )
+********Predicted Code************
+d = { ' food':'fish&chips','2012':'olympics','capital':'london ' } 
+list_key_value = [ [ [ [ [ [ [ [ [ [ k , v ] , v ] , v ] , v ] , v ] 
+print(f'lsit_key_value:{list_key_value } ' )
+
+
+
+********Comment************
+target . to sum numbers chosen the where candidates of combinations unique all of list a return target , integer target a and candidates integers distinct list an given which function python write
+********Actual Code************
+def combinationsum(candidates , target ) : 
+    results = [ ] 
+    def helper(i , path ) : 
+        if sum(path ) = = target : 
+            results.append(path [ : ] ) 
+            return 
+        if sum(path ) > target : 
+            return 
+        for x in range(i , len(candidates ) ) : 
+            path.append(candidates[x ] ) 
+            helper(x , path ) 
+            path.pop ( ) 
+    helper(0 , [ ] ) 
+    return results
+********Predicted Code************
+def combinationsum(candidates , target ) : 
+    results = [ ] 
+    def helper(i , path ) : 
+        if sum(path ) = = target : 
+            results.append(path [ : ] ) 
+            return 
+        if sum(path ) > target : 
+            return 
+        for x in range(i , len(candidates
+
+
+
+********Comment************
+output the out print element . initial similar have they if tupels of list a from tuples join to program python a write
+********Actual Code************
+test_list = [ ( 5 , 6 ) , ( 5 , 7 ) , ( 6 , 8) , ( 6 , 10 ) , ( 7 , 13 ) ] 
+print("the original list is : " + str(test_list ) ) 
+res = [ ] 
+for sub in test_list :                                            
+    if res and res[-1][0 ] = = sub[0 ] :               
+        res[-1].extend(sub[1 : ] )                         
+    else : 
+        res.append([ele for ele in sub ] )      
+res = list(map(tuple , res ) ) 
+print("the extracted elements : " + str(res ) )
+********Predicted Code************
+test_list = [ ( 5 , 6 ) , ( 5 , 7 ) , ( 6 , 8) , ( 6 , 10 ) , ( 7 , 13 ) ] 
+print("the original list is : " + str(test_list ) ) 
+res = [ ] 
+for
+
+
+
+********Comment************
+write a python program to print the last 3 items in a list
+********Actual Code************
+my_list = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ] 
+print(my_list[-3 : ] )
+********Predicted Code************
+my_list = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ] 
+print(my_list[-3 : ] )
+
+
+
+********Comment************
+concatenation of two list
+********Actual Code************
+my_list1 = [ 4,3,2,9,10,44,1 ] 
+my_list2 = [ 5,6,2,8,15,14,12 ] 
+print(f"sum of two list:,{my_list1+my_list2 } " )
+********Predicted Code************
+my_list1 = [ 4,3,2,9,10,44,1 ] 
+my_list2 = [ 5,6,2,8,15,14,12 ] 
+print(f"sum of two list:,{my_list1+my_list2 } " )
+
+
+
+********Comment************
+write a python function to find urls in a string
+********Actual Code************
+import re 
+def find(string ) : 
+    regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a - z0 - 9.\-]+[.][a - z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\ " . , < > ? « » “ ” ‘ ’ ] ) ) " 
+    url = re.findall(regex , string )       
+    return [ x[0 ] for x in url ]
+********Predicted Code************
+import re 
+def find_urls(string ) : 
+    regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a - z0 - 9.\-]+[.][a - z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\ " . , < > ? « » “ ” ‘ ’ ] ) ) " 
+    url = re.findall(regex , string )       
+    return [ x[0 ] for x in url ]
+
+
+
+********Comment************
+initializing key
+********Actual Code************
+new_key = ' best '
+********Predicted Code************
+new_key = ' best '
+
+
+
+********Comment************
+perfect is number a whether check to function python a write
+********Actual Code************
+def isperfect ( n ): 
+     sum = 1 
+     i = 2 
+     while i * i < = n : 
+         if n % i = = 0 : 
+             sum = sum + i + n / i 
+         i + = 1 
+     return ( true if sum = = n and n!=1 else false )
+********Predicted Code************
+def isperfect ( n ): 
+     i = 1 
+     while i < = 1 : 
+         if n % i = = 0 : 
+         i + 1 
+     return ( true if sum = = n / i + i + 1 ) : 
+         i + =
+
+
+
+********Comment************
+string a in characters of number print to program a write
+********Actual Code************
+str1 = ' it is a glorious day ' 
+res = len(str1 ) 
+print("the number of characters in string are : " , str(res ) )
+********Predicted Code************
+str1 = ' it is a glorious day ' 
+res = len(str1 ) 
+print("the number of characters in string are : " , str(res ) )
+
+
+
+********Comment************
+write a python program which takes input a list and print reverse output
+********Actual Code************
+lst = eval(input("enter list " ) ) 
+print(lst[::-1 ] )
+********Predicted Code************
+lst = eval(input("enter list : ") ) 
+print(lst[::-1 ] )
+
+
+
+********Comment************
+write a python function to check if 2 strings are anagrams or not
+********Actual Code************
+def anagram(s1 , s2 ) : 
+    if sorted(s1 ) = = sorted(s2 ) : 
+        return true 
+    else : 
+        return false
+********Predicted Code************
+def anagram(s1 , s2 ) : 
+    if sorted(s1 ) = = sorted(s2 ) : 
+        return true 
+    else : 
+        return false
+
+
+
+********Comment************
+write a program that prints dictionaries having key of the first dictionary and value of the second dictionary
+********Actual Code************
+test_dict1 = { " tsai " : 20 , " is " : 36 , " best " : 100 } 
+test_dict2 = { " tsai2 " : 26 , " is2 " : 19 , " best2 " : 70 } 
+keys1 = list(test_dict1.keys ( ) ) 
+vals2 = list(test_dict2.values ( ) ) 
+res = dict ( ) 
+for idx in range(len(keys1 ) ) : 
+	res[keys1[idx ] ] = vals2[idx ] 
+print("mapped dictionary : " + str(res ) )
+********Predicted Code************
+test_dict1 = { " tsai " : 20 , " is " : 36 , " best " : 100 } 
+test_dict2 = { " tsai2 " : 26 , " is2 " : 19 , " best2 " : 70 } 
+keys1 = list(test_dict1.keys ( ) )
+
+
+
+********Comment************
+write a python function that would print the ascii value of a given character
+********Actual Code************
+def print_ascii(char ) : 
+    print(ord(char ) )
+********Predicted Code************
+def print_ascii(char ) : 
+    print(ord(char ) )
+
+
+
+********Comment************
+write a python program to print 5 random vowels
+********Actual Code************
+import random 
+vowels = [ ' a ' , ' e ' , ' i ' , ' o ' , ' u ' ] 
+print([random.choice(vowels ) for _ in range(5 ) ] )
+********Predicted Code************
+import random 
+vowels = [ ' a ' , ' e ' , ' i ' , ' o ' , ' u ' ] 
+print([random.choice(vowels ) for _ in range(5 ) ] )
+
+
