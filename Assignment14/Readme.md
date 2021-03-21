@@ -49,6 +49,10 @@ Used loss and perplexity as evaluation metrics. It was observered that the decre
 
 The folder has two files "train_example.txt" generated for the training dataset and "test_example.txt" generated on the test dataset. 
 
+The **comment** represents the source, **Actual Code** represents the ground truth or the target data used for training and **Predicted Code** represents the generated code by the model
+
+**Data.csv** is the file generated and used for training after all the pre-processing etc.
+
 # 9. Graphs
 
 Graphs are generated and shown in the python notebook.
